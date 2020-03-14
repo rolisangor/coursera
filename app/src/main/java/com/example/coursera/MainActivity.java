@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    private Button btn;
     private TextView text;
 
     @Override
@@ -26,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         ContextCompat.getColor(this,R.color.red);
-        Button btn = findViewById(R.id.button);
+        btn = findViewById(R.id.button);
         text =findViewById(R.id.textView);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
